@@ -44,9 +44,9 @@ let mainObject = {
 $(document).ready(function () {
 
     const doozSocket = new WebSocket(
-        'ws://'
+        'wss://'
         + window.location.host
-        + '/ws/dooz/'
+        + '/wss/dooz/'
     );
 
     $(".start_button").click(function () {
