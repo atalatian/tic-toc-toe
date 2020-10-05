@@ -134,7 +134,7 @@ REST_FRAMEWORK = {
     ],
 }
 
-ASGI_APPLICATION = "game.asgi.application"
+ASGI_APPLICATION = "game.routing.application"
 CHANNEL_LAYERS = {
     'default': {
         'BACKEND': 'channels_redis.core.RedisChannelLayer',
